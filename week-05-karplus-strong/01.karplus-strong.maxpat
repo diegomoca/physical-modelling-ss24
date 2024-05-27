@@ -40,6 +40,50 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "preset",
+					"numinlets" : 1,
+					"numoutlets" : 5,
+					"outlettype" : [ "preset", "int", "preset", "int", "" ],
+					"patching_rect" : [ 713.0, 144.0, 100.0, 40.0 ],
+					"preset_data" : [ 						{
+							"number" : 1,
+							"data" : [ 4, "obj-13", "function", "clear", 7, "obj-13", "function", "add", 0.0, 0.0, 0, 7, "obj-13", "function", "add", 2.127659574468085, 1.0, 0, 7, "obj-13", "function", "add", 8.51063829787234, 0.266666666666667, 0, 7, "obj-13", "function", "add", 100.0, 0.0, 0, 5, "obj-13", "function", "domain", 100.0, 6, "obj-13", "function", "range", 0.0, 1.0, 5, "obj-13", "function", "mode", 0, 5, "obj-20", "live.gain~", "float", 0.0, 5, "obj-22", "toggle", "int", 1, 5, "obj-29", "flonum", "float", 220.0, 5, "obj-31", "flonum", "float", 0.99099999666214, 5, "obj-34", "live.gain~", "float", 0.0, 5, "obj-37", "flonum", "float", 0.990000009536743, 5, "obj-38", "flonum", "float", 1.0 ]
+						}
+, 						{
+							"number" : 2,
+							"data" : [ 4, "obj-13", "function", "clear", 7, "obj-13", "function", "add", 0.0, 0.0, 0, 7, "obj-13", "function", "add", 2.127659574468085, 1.0, 0, 7, "obj-13", "function", "add", 8.51063829787234, 0.266666666666667, 0, 7, "obj-13", "function", "add", 100.0, 0.0, 0, 5, "obj-13", "function", "domain", 100.0, 6, "obj-13", "function", "range", 0.0, 1.0, 5, "obj-13", "function", "mode", 0, 5, "obj-20", "live.gain~", "float", 0.0, 5, "obj-22", "toggle", "int", 1, 5, "obj-29", "flonum", "float", 220.0, 5, "obj-31", "flonum", "float", 0.99099999666214, 5, "obj-34", "live.gain~", "float", 0.0, 5, "obj-37", "flonum", "float", 0.670000016689301, 5, "obj-38", "flonum", "float", 13.5 ]
+						}
+, 						{
+							"number" : 3,
+							"data" : [ 4, "obj-13", "function", "clear", 7, "obj-13", "function", "add", 0.0, 0.0, 0, 7, "obj-13", "function", "add", 2.127659574468085, 1.0, 0, 7, "obj-13", "function", "add", 8.51063829787234, 0.266666666666667, 0, 7, "obj-13", "function", "add", 100.0, 0.0, 0, 5, "obj-13", "function", "domain", 100.0, 6, "obj-13", "function", "range", 0.0, 1.0, 5, "obj-13", "function", "mode", 0, 5, "obj-20", "live.gain~", "float", 0.0, 5, "obj-22", "toggle", "int", 1, 5, "obj-29", "flonum", "float", 220.0, 5, "obj-31", "flonum", "float", 0.99099999666214, 5, "obj-34", "live.gain~", "float", 0.0, 5, "obj-37", "flonum", "float", 0.670000016689301, 5, "obj-38", "flonum", "float", 171.0 ]
+						}
+, 						{
+							"number" : 4,
+							"data" : [ 4, "obj-13", "function", "clear", 7, "obj-13", "function", "add", 0.0, 0.0, 0, 7, "obj-13", "function", "add", 2.127659574468085, 1.0, 0, 7, "obj-13", "function", "add", 8.51063829787234, 0.266666666666667, 0, 7, "obj-13", "function", "add", 100.0, 0.0, 0, 5, "obj-13", "function", "domain", 100.0, 6, "obj-13", "function", "range", 0.0, 1.0, 5, "obj-13", "function", "mode", 0, 5, "obj-20", "live.gain~", "float", -2.976377964019775, 5, "obj-22", "toggle", "int", 1, 5, "obj-29", "flonum", "float", 31.0, 5, "obj-31", "flonum", "float", 0.813000023365021, 5, "obj-34", "live.gain~", "float", -70.0, 5, "obj-37", "flonum", "float", 0.990000009536743, 5, "obj-38", "flonum", "float", 1.0 ]
+						}
+, 						{
+							"number" : 5,
+							"data" : [ 4, "obj-13", "function", "clear", 7, "obj-13", "function", "add", 0.0, 0.0, 0, 7, "obj-13", "function", "add", 2.127659574468085, 1.0, 0, 7, "obj-13", "function", "add", 8.51063829787234, 0.266666666666667, 0, 7, "obj-13", "function", "add", 100.0, 0.0, 0, 5, "obj-13", "function", "domain", 100.0, 6, "obj-13", "function", "range", 0.0, 1.0, 5, "obj-13", "function", "mode", 0, 5, "obj-20", "live.gain~", "float", 0.0, 5, "obj-22", "toggle", "int", 1, 5, "obj-29", "flonum", "float", 8.0, 5, "obj-31", "flonum", "float", 0.949999988079071, 5, "obj-34", "live.gain~", "float", 0.0, 5, "obj-37", "flonum", "float", 0.990000009536743, 5, "obj-38", "flonum", "float", 1.0 ]
+						}
+, 						{
+							"number" : 6,
+							"data" : [ 4, "obj-13", "function", "clear", 7, "obj-13", "function", "add", 0.0, 0.0, 0, 7, "obj-13", "function", "add", 2.127659574468085, 1.0, 0, 7, "obj-13", "function", "add", 8.51063829787234, 0.266666666666667, 0, 7, "obj-13", "function", "add", 100.0, 0.0, 0, 5, "obj-13", "function", "domain", 100.0, 6, "obj-13", "function", "range", 0.0, 1.0, 5, "obj-13", "function", "mode", 0, 5, "obj-20", "live.gain~", "float", -70.0, 5, "obj-22", "toggle", "int", 1, 5, "obj-29", "flonum", "float", 3020.0, 5, "obj-31", "flonum", "float", 0.813000023365021, 5, "obj-34", "live.gain~", "float", -2.606705188751221, 5, "obj-37", "flonum", "float", 0.523999989032745, 5, "obj-38", "flonum", "float", 1346.0 ]
+						}
+, 						{
+							"number" : 7,
+							"data" : [ 4, "obj-13", "function", "clear", 7, "obj-13", "function", "add", 0.0, 0.0, 0, 7, "obj-13", "function", "add", 2.127659574468085, 1.0, 0, 7, "obj-13", "function", "add", 8.51063829787234, 0.266666666666667, 0, 7, "obj-13", "function", "add", 100.0, 0.0, 0, 5, "obj-13", "function", "domain", 100.0, 6, "obj-13", "function", "range", 0.0, 1.0, 5, "obj-13", "function", "mode", 0, 5, "obj-20", "live.gain~", "float", -70.0, 5, "obj-22", "toggle", "int", 1, 5, "obj-29", "flonum", "float", 220.0, 5, "obj-31", "flonum", "float", 0.99099999666214, 5, "obj-34", "live.gain~", "float", 0.0, 5, "obj-37", "flonum", "float", 0.100000001490116, 5, "obj-38", "flonum", "float", 20000.0 ]
+						}
+, 						{
+							"number" : 8,
+							"data" : [ 4, "obj-13", "function", "clear", 7, "obj-13", "function", "add", 0.0, 0.0, 0, 7, "obj-13", "function", "add", 2.127659574468085, 1.0, 0, 7, "obj-13", "function", "add", 8.51063829787234, 0.266666666666667, 0, 7, "obj-13", "function", "add", 100.0, 0.0, 0, 5, "obj-13", "function", "domain", 100.0, 6, "obj-13", "function", "range", 0.0, 1.0, 5, "obj-13", "function", "mode", 0, 5, "obj-20", "live.gain~", "float", -70.0, 5, "obj-22", "toggle", "int", 1, 5, "obj-29", "flonum", "float", 5.0, 5, "obj-31", "flonum", "float", 0.999000012874603, 5, "obj-34", "live.gain~", "float", -7.550775051116943, 5, "obj-37", "flonum", "float", 0.990000009536743, 5, "obj-38", "flonum", "float", 20000.0 ]
+						}
+ ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"format" : 6,
 					"id" : "obj-38",
 					"maxclass" : "flonum",
@@ -84,7 +128,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 442.0, 216.0, 41.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "AP $1"
 				}
 
@@ -124,8 +167,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 346.5, 262.0, 129.0, 22.0 ],
-					"presentation_linecount" : 2,
+					"patching_rect" : [ 485.0, 318.0, 129.0, 22.0 ],
 					"text" : "gen~ stiff-string-AP-LP"
 				}
 
@@ -238,7 +280,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 211.5, 262.0, 115.0, 22.0 ],
+					"patching_rect" : [ 51.0, 327.0, 115.0, 22.0 ],
 					"text" : "gen~ karplus-strong"
 				}
 

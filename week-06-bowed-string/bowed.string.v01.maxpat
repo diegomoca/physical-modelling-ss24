@@ -40,6 +40,50 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "preset",
+					"numinlets" : 1,
+					"numoutlets" : 5,
+					"outlettype" : [ "preset", "int", "preset", "int", "" ],
+					"patching_rect" : [ 545.0, 688.0, 100.0, 40.0 ],
+					"preset_data" : [ 						{
+							"number" : 1,
+							"data" : [ 5, "obj-20", "live.gain~", "float", 0.0, 5, "obj-6", "live.slider", "float", 0.332008957862854, 5, "obj-16", "attrui", "attr", "edit_mode", 5, "obj-16", "attrui", "int", 1, 5, "obj-17", "filtergraph~", "nfilters", 1, 9, "obj-17", "filtergraph~", "setoptions", 0, 1, 1, 0, 0, 8, "obj-17", "filtergraph~", "params", 0, 5000.0, 1.0, 0.5, 5, "obj-19", "flonum", "float", 5000.0, 5, "obj-21", "flonum", "float", 0.5, 5, "obj-29", "attrui", "attr", "edit_mode", 5, "obj-29", "attrui", "int", 1, 5, "obj-28", "filtergraph~", "nfilters", 1, 9, "obj-28", "filtergraph~", "setoptions", 0, 1, 1, 0, 0, 8, "obj-28", "filtergraph~", "params", 0, 5000.0, 1.0, 0.5, 5, "obj-27", "flonum", "float", 5000.0, 5, "obj-26", "flonum", "float", 0.5, 5, "obj-36", "flonum", "float", 261.625579833984375, 5, "obj-41", "flonum", "float", 0.680000007152557, 5, "obj-47", "flonum", "float", 0.180000007152557, 5, "obj-49", "flonum", "float", 0.056000001728535, 5, "obj-51", "flonum", "float", 0.256000012159348, 5, "obj-52", "kslider", "int", 60 ]
+						}
+, 						{
+							"number" : 7,
+							"data" : [ 5, "obj-20", "live.gain~", "float", -6.705901622772217, 5, "obj-6", "live.slider", "float", 0.696886539459229, 5, "obj-16", "attrui", "attr", "edit_mode", 5, "obj-16", "attrui", "int", 1, 5, "obj-17", "filtergraph~", "nfilters", 1, 9, "obj-17", "filtergraph~", "setoptions", 0, 1, 1, 0, 0, 8, "obj-17", "filtergraph~", "params", 0, 5000.0, 1.0, 0.5, 5, "obj-19", "flonum", "float", 5000.0, 5, "obj-21", "flonum", "float", 0.5, 5, "obj-29", "attrui", "attr", "edit_mode", 5, "obj-29", "attrui", "int", 1, 5, "obj-28", "filtergraph~", "nfilters", 1, 9, "obj-28", "filtergraph~", "setoptions", 0, 1, 1, 0, 0, 8, "obj-28", "filtergraph~", "params", 0, 5000.0, 1.0, 0.5, 5, "obj-27", "flonum", "float", 5000.0, 5, "obj-26", "flonum", "float", 0.5, 5, "obj-36", "flonum", "float", 20.0, 5, "obj-41", "flonum", "float", 0.680000007152557, 5, "obj-47", "flonum", "float", 0.180000007152557, 5, "obj-49", "flonum", "float", 0.056000001728535, 5, "obj-51", "flonum", "float", 0.256000012159348, 5, "obj-52", "kslider", "int", 60 ]
+						}
+, 						{
+							"number" : 8,
+							"data" : [ 5, "obj-20", "live.gain~", "float", -6.705901622772217, 5, "obj-6", "live.slider", "float", 1.0, 5, "obj-16", "attrui", "attr", "edit_mode", 5, "obj-16", "attrui", "int", 1, 5, "obj-17", "filtergraph~", "nfilters", 1, 9, "obj-17", "filtergraph~", "setoptions", 0, 1, 1, 0, 0, 8, "obj-17", "filtergraph~", "params", 0, 5000.0, 1.0, 0.5, 5, "obj-19", "flonum", "float", 5000.0, 5, "obj-21", "flonum", "float", 0.5, 5, "obj-29", "attrui", "attr", "edit_mode", 5, "obj-29", "attrui", "int", 1, 5, "obj-28", "filtergraph~", "nfilters", 1, 9, "obj-28", "filtergraph~", "setoptions", 0, 1, 1, 0, 0, 8, "obj-28", "filtergraph~", "params", 0, 5000.0, 1.0, 0.5, 5, "obj-27", "flonum", "float", 5000.0, 5, "obj-26", "flonum", "float", 0.5, 5, "obj-36", "flonum", "float", 1.0, 5, "obj-41", "flonum", "float", 0.680000007152557, 5, "obj-47", "flonum", "float", 0.180000007152557, 5, "obj-49", "flonum", "float", 0.056000001728535, 5, "obj-51", "flonum", "float", 0.256000012159348, 5, "obj-52", "kslider", "int", 60 ]
+						}
+, 						{
+							"number" : 12,
+							"data" : [ 5, "obj-20", "live.gain~", "float", 0.0, 5, "obj-6", "live.slider", "float", 0.914541661739349, 5, "obj-16", "attrui", "attr", "edit_mode", 5, "obj-16", "attrui", "int", 1, 5, "obj-17", "filtergraph~", "nfilters", 1, 9, "obj-17", "filtergraph~", "setoptions", 0, 1, 1, 0, 0, 8, "obj-17", "filtergraph~", "params", 0, 5000.0, 1.0, 0.5, 5, "obj-19", "flonum", "float", 5000.0, 5, "obj-21", "flonum", "float", 0.5, 5, "obj-29", "attrui", "attr", "edit_mode", 5, "obj-29", "attrui", "int", 1, 5, "obj-28", "filtergraph~", "nfilters", 1, 9, "obj-28", "filtergraph~", "setoptions", 0, 1, 1, 0, 0, 8, "obj-28", "filtergraph~", "params", 0, 5000.0, 1.0, 0.5, 5, "obj-27", "flonum", "float", 5000.0, 5, "obj-26", "flonum", "float", 0.5, 5, "obj-36", "flonum", "float", 174.614120483398438, 5, "obj-41", "flonum", "float", 0.308999985456467, 5, "obj-47", "flonum", "float", 0.358000010251999, 5, "obj-49", "flonum", "float", 0.056000001728535, 5, "obj-51", "flonum", "float", 0.256000012159348, 5, "obj-52", "kslider", "int", 53 ]
+						}
+, 						{
+							"number" : 13,
+							"data" : [ 5, "obj-20", "live.gain~", "float", -6.705901622772217, 5, "obj-6", "live.slider", "float", 0.184569820761681, 5, "obj-16", "attrui", "attr", "edit_mode", 5, "obj-16", "attrui", "int", 1, 5, "obj-17", "filtergraph~", "nfilters", 1, 9, "obj-17", "filtergraph~", "setoptions", 0, 1, 1, 0, 0, 8, "obj-17", "filtergraph~", "params", 0, 5000.0, 1.0, 0.5, 5, "obj-19", "flonum", "float", 5000.0, 5, "obj-21", "flonum", "float", 0.5, 5, "obj-29", "attrui", "attr", "edit_mode", 5, "obj-29", "attrui", "int", 1, 5, "obj-28", "filtergraph~", "nfilters", 1, 9, "obj-28", "filtergraph~", "setoptions", 0, 1, 1, 0, 0, 8, "obj-28", "filtergraph~", "params", 0, 5000.0, 1.0, 0.5, 5, "obj-27", "flonum", "float", 5000.0, 5, "obj-26", "flonum", "float", 0.5, 5, "obj-36", "flonum", "float", 174.614120483398438, 5, "obj-41", "flonum", "float", 0.300000011920929, 5, "obj-47", "flonum", "float", 0.180000007152557, 5, "obj-49", "flonum", "float", 0.056000001728535, 5, "obj-51", "flonum", "float", 0.256000012159348, 5, "obj-52", "kslider", "int", 53 ]
+						}
+, 						{
+							"number" : 14,
+							"data" : [ 5, "obj-20", "live.gain~", "float", -6.705901622772217, 5, "obj-6", "live.slider", "float", 0.192443832755089, 5, "obj-16", "attrui", "attr", "edit_mode", 5, "obj-16", "attrui", "int", 1, 5, "obj-17", "filtergraph~", "nfilters", 1, 9, "obj-17", "filtergraph~", "setoptions", 0, 1, 1, 0, 0, 8, "obj-17", "filtergraph~", "params", 0, 5000.0, 1.0, 0.5, 5, "obj-19", "flonum", "float", 5000.0, 5, "obj-21", "flonum", "float", 0.5, 5, "obj-29", "attrui", "attr", "edit_mode", 5, "obj-29", "attrui", "int", 1, 5, "obj-28", "filtergraph~", "nfilters", 1, 9, "obj-28", "filtergraph~", "setoptions", 0, 1, 1, 0, 0, 8, "obj-28", "filtergraph~", "params", 0, 5000.0, 1.0, 0.5, 5, "obj-27", "flonum", "float", 5000.0, 5, "obj-26", "flonum", "float", 0.5, 5, "obj-36", "flonum", "float", 174.614120483398438, 5, "obj-41", "flonum", "float", 0.300000011920929, 5, "obj-47", "flonum", "float", 0.180000007152557, 5, "obj-49", "flonum", "float", 0.056000001728535, 5, "obj-51", "flonum", "float", 0.256000012159348, 5, "obj-52", "kslider", "int", 53 ]
+						}
+, 						{
+							"number" : 15,
+							"data" : [ 5, "obj-20", "live.gain~", "float", -6.705901622772217, 5, "obj-6", "live.slider", "float", 0.915552973747253, 5, "obj-16", "attrui", "attr", "edit_mode", 5, "obj-16", "attrui", "int", 1, 5, "obj-17", "filtergraph~", "nfilters", 1, 9, "obj-17", "filtergraph~", "setoptions", 0, 1, 1, 0, 0, 8, "obj-17", "filtergraph~", "params", 0, 5000.0, 1.0, 0.5, 5, "obj-19", "flonum", "float", 5000.0, 5, "obj-21", "flonum", "float", 0.5, 5, "obj-29", "attrui", "attr", "edit_mode", 5, "obj-29", "attrui", "int", 1, 5, "obj-28", "filtergraph~", "nfilters", 1, 9, "obj-28", "filtergraph~", "setoptions", 0, 1, 1, 0, 0, 8, "obj-28", "filtergraph~", "params", 0, 5000.0, 1.0, 0.5, 5, "obj-27", "flonum", "float", 5000.0, 5, "obj-26", "flonum", "float", 0.5, 5, "obj-36", "flonum", "float", 5.0, 5, "obj-41", "flonum", "float", 0.300000011920929, 5, "obj-47", "flonum", "float", 0.180000007152557, 5, "obj-49", "flonum", "float", 0.056000001728535, 5, "obj-51", "flonum", "float", 0.256000012159348, 5, "obj-52", "kslider", "int", 60 ]
+						}
+, 						{
+							"number" : 16,
+							"data" : [ 5, "obj-20", "live.gain~", "float", -6.705901622772217, 5, "obj-6", "live.slider", "float", 0.118543669581413, 5, "obj-16", "attrui", "attr", "edit_mode", 5, "obj-16", "attrui", "int", 1, 5, "obj-17", "filtergraph~", "nfilters", 1, 9, "obj-17", "filtergraph~", "setoptions", 0, 1, 1, 0, 0, 8, "obj-17", "filtergraph~", "params", 0, 5000.0, 1.0, 0.5, 5, "obj-19", "flonum", "float", 5000.0, 5, "obj-21", "flonum", "float", 0.5, 5, "obj-29", "attrui", "attr", "edit_mode", 5, "obj-29", "attrui", "int", 1, 5, "obj-28", "filtergraph~", "nfilters", 1, 9, "obj-28", "filtergraph~", "setoptions", 0, 1, 1, 0, 0, 8, "obj-28", "filtergraph~", "params", 0, 5000.0, 1.0, 0.5, 5, "obj-27", "flonum", "float", 5000.0, 5, "obj-26", "flonum", "float", 0.5, 5, "obj-36", "flonum", "float", 20.0, 5, "obj-41", "flonum", "float", 0.680000007152557, 5, "obj-47", "flonum", "float", 0.180000007152557, 5, "obj-49", "flonum", "float", 0.056000001728535, 5, "obj-51", "flonum", "float", 0.256000012159348, 5, "obj-52", "kslider", "int", 60 ]
+						}
+ ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-58",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -106,7 +150,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 317.0, 268.0, 81.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "forceoffset $1"
 				}
 
@@ -132,7 +175,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 231.0, 268.0, 80.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "forcescale $1"
 				}
 
@@ -158,7 +200,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 161.0, 268.0, 63.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "bowvel $1"
 				}
 
@@ -314,7 +355,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 530.0, 153.0, 45.0, 22.0 ],
-									"presentation_linecount" : 2,
 									"text" : "bb2 $1"
 								}
 
@@ -327,7 +367,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 483.0, 153.0, 45.0, 22.0 ],
-									"presentation_linecount" : 2,
 									"text" : "bb1 $1"
 								}
 
@@ -340,7 +379,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 436.0, 153.0, 45.0, 22.0 ],
-									"presentation_linecount" : 2,
 									"text" : "ba2 $1"
 								}
 
@@ -353,7 +391,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 389.0, 153.0, 45.0, 22.0 ],
-									"presentation_linecount" : 2,
 									"text" : "ba1 $1"
 								}
 
@@ -366,7 +403,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 342.0, 153.0, 45.0, 22.0 ],
-									"presentation_linecount" : 2,
 									"text" : "ba0 $1"
 								}
 
