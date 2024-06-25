@@ -1,0 +1,43 @@
+; initialization
+
+(in-package :mlys)
+(new)
+(set-sample-rate 48000)
+
+; scaling variable for our geometry
+
+(setf scale 1)
+
+; build the wineglass geometry
+; 1. create the top part (bowl)
+
+(setf bowl (make-mesh 'single-point (vector 0 0 0)))
+(duplicate 'rotation bowl 9 (vector 1 0 0) (vector 0 0 (* scale 1))10)
+(duplicate 'rotation bowl 36 (vector 0 0 1)(vector 0 0 0)10)
+(duplicate 'homothety bowl 1 (vector 0 0 0.1)1.05)
+
+; 2. stem
+
+(setf stem (make-mesh 'single-point (vector 0 (* scale 0.01)0)))
+(duplicate 'translation stem 1 (vector 0 (* scale 0.1)0))
+(duplicate 'rotation stem 18 (vector 0 0 1)(list 0 0 0)20)
+(duplicate 'translation stem 4 (vector 0 0 (* scale -0.5)))
+
+; 3. base
+(setf base (make-mesh 'single-point (vector 0 0 (* scale -2))))
+(duplicate 'translation base 5 (vector 0 0.15 0))
+(duplicate 'rotation base 18 (vector 0 0 1)(list 0 0 0)20)
+(duplicate 'translation base 1 (vector 0 0 -0.1))
+
+; view individual sub-meshes
+(view 'mesh bowl)
+(view 'mesh stem)
+(view 'mesh base)
+
+; combine these parts into a single mesh
+
+(setf wine-glass (make-mesh 'add(list bowl stem base)))
+
+; view the composite mesh
+
+(view 'mesh wine-glass)
